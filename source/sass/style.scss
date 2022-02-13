@@ -1,0 +1,60 @@
+@import "./normalize.scss";
+@import "./icomoon.scss";
+@import "./blocks/header.scss";
+@import "./blocks/main.scss";
+@import "./blocks/main-header.scss";
+@import "./blocks/quote.scss";
+@import "./blocks/fashion-blog.scss";
+@import "./blocks/fashion-blog-aside.scss";
+@import "./blocks/advice.scss";
+@import "./blocks/daily-fashion.scss";
+@import "./blocks/sales.scss";
+@import "./blocks/socials-section.scss";
+@import "./blocks/popular.scss";
+@import "./blocks/main-footer.scss";
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.ie {
+  background-color: black;
+  color: whitesmoke;
+  font-family: "Lato";
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-size: 30px;
+  vertical-align: middle;
+  align-items: center;
+}
+
+img {
+  height: auto;
+  max-width: 100%;
+}
+
+.page__body {
+  padding: 0;
+  margin: 0;
+  font-family: "Raleway", "Arial", serif;
+  font-size: 18px;
+  line-height: 27px;
+  color: black;
+  min-width: 1200px;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
