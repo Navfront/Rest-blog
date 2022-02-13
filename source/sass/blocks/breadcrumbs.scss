@@ -1,0 +1,39 @@
+.breadcrumbs {
+  display: flex;
+  list-style: none;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  padding: 42px 0 30px 0;
+  max-width: 600px;
+}
+
+.breadcrumbs__item:not(:last-child) .breadcrumbs__link {
+  &[href]::after {
+    content: "";
+    width: 10px;
+    height: 10px;
+    margin-left: 15px;
+    margin-right: 22px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url("../../img/icons/icon-breadcrumbs-arrow.svg");
+  }
+}
+
+.breadcrumbs__link {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  line-height: 19px;
+  color: #bdbec2;
+  text-decoration: none;
+
+  &[href]:hover,
+  &[href]:focus {
+    color: black;
+  }
+
+  &[href]:active {
+    color: #eeeeee;
+  }
+}
