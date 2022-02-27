@@ -5,17 +5,6 @@
   text-decoration: none;
   color: black;
 
-  &::before {
-    content: "";
-    width: 16px;
-    height: 16px;
-    margin-top: 7px;
-    margin-right: 10px;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-image: url("../../img/icons/icon-tele.svg");
-  }
-
   &:hover,
   &:focus {
     opacity: 0.6;
@@ -24,4 +13,11 @@
   &:active {
     opacity: 0.3;
   }
+}
+
+.telephone__icon {
+  width: 16px;
+  height: 16px;
+  margin-top: 7px;
+  margin-right: 10px;
 }
