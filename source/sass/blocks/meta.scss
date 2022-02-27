@@ -1,0 +1,18 @@
+.meta {
+  font-style: normal;
+  font-size: 14px;
+  line-height: 19px;
+  color: rgba(#ffffff, 0.5);
+}
+
+.meta__icon {
+  opacity: 0.5;
+  margin-right: 12px;
+}
+
+.meta__stats {
+  display: flex;
+  align-items: center;
+  padding-top: 5px;
+  padding-bottom: 10px;
+}
