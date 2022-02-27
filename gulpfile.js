@@ -28,6 +28,7 @@ const styles = () => {
     .pipe(sass())
     .pipe(postcss([autoprefixer(), csso()]))
     .pipe(csswebp([".jpg", ".png"]))
+    .pipe(postcss([csso()]))
     .pipe(rename("style.min.css"))
     .pipe(sourcemap.write("."))
     .pipe(gulp.dest("build/css"))
