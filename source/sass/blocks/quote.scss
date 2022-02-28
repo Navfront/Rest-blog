@@ -1,0 +1,59 @@
+.quote {
+  display: flex;
+  flex-direction: column;
+  padding: 117px 32px 50px 50px;
+  width: 312px;
+  background-image: url("../../img/icons/icon-small-quote.svg");
+  background-repeat: no-repeat;
+  background-size: 41px 36px;
+  background-position: top 50px left 50px;
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.1);
+
+  p {
+    margin: 0;
+    width: auto;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: black;
+  }
+
+  cite {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: black;
+    padding-top: 10px;
+  }
+
+  a {
+    display: flex;
+    align-items: center;
+    padding-top: 25px;
+    font-size: 16px;
+    line-height: 24px;
+    color: #4770a0;
+
+    &::after {
+      content: "";
+      width: 21px;
+      height: 18px;
+      margin-left: 10px;
+      background-image: url("../../img/icons/icon-arrow-small-right.svg");
+      background-repeat: no-repeat;
+      background-position: center;
+    }
+
+    &:hover,
+    &:focus {
+      color: #f24a4a;
+    }
+
+    &:active {
+      color: #f24a4a;
+      opacity: 0.5;
+    }
+  }
+}

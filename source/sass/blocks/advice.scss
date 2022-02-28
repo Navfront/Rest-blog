@@ -37,3 +37,13 @@
     color: #4770a0;
   }
 }
+
+.advice--clear {
+  &::before {
+    border: none;
+  }
+}
+
+.advice__quote {
+  margin: 0 26px 35px 0;
+}

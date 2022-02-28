@@ -1,0 +1,45 @@
+.sidebar {
+  width: 112px;
+  padding: 35px 11px;
+  background-color: #f1f2f5;
+}
+
+.sidebar__list {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar__item {
+  position: relative;
+  text-align: center;
+  margin-bottom: 32px;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+
+  &:not(:last-child)::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -21px;
+    width: 11px;
+    height: 11px;
+    margin: 0 auto;
+    border-radius: 50%;
+    background-color: #4770a0;
+  }
+}
+
+.sidebar__link {
+  &:hover,
+  &:focus {
+    color: #f24a4a;
+  }
+
+  &:active {
+    color: #f24a4a;
+    opacity: 0.3;
+  }
+}
