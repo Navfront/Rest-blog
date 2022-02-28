@@ -1,0 +1,39 @@
+.advice {
+  position: relative;
+
+  &::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: -30px;
+    border-left: 1px solid #4770a0;
+  }
+
+  h3 {
+    margin: 0;
+    padding: 0 0 23px 75px;
+    min-height: 53px;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 37px;
+    color: #4770a0;
+  }
+
+  p {
+    margin: 0 0 29px 0;
+  }
+
+  b {
+    font-weight: 600;
+  }
+
+  strong {
+    font-weight: 600;
+    color: #f24a4a;
+  }
+
+  a {
+    color: #4770a0;
+  }
+}

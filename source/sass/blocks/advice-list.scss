@@ -1,0 +1,26 @@
+.advice-list {
+  list-style: none;
+  padding: 0;
+  counter-reset: advice-counter;
+}
+
+.advice-list__item {
+  counter-increment: advice-counter;
+  position: relative;
+  margin-bottom: 50px;
+
+  &::before {
+    content: "0" counter(advice-counter);
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 47px;
+    height: 47px;
+    background-color: #4770a0;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 47px;
+    text-align: center;
+    color: white;
+  }
+}

@@ -1,14 +1,25 @@
-.main-article h1 {
-  margin: 0;
-  padding: 38px 50px 5px;
-  font-weight: 600;
-  font-size: 30px;
-  line-height: 41px;
-  letter-spacing: 0.07em;
-  text-transform: uppercase;
-  color: white;
-  text-align: center;
-  border-top: 1px solid rgba(#ffffff, 0.2);
+.main-article {
+  h1 {
+    margin: 0;
+    padding: 38px 50px 5px;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 41px;
+    letter-spacing: 0.07em;
+    text-transform: uppercase;
+    color: white;
+    text-align: center;
+    border-top: 1px solid rgba(#ffffff, 0.2);
+  }
+
+  h2 {
+    margin: 0;
+    margin-bottom: 30px;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 1.5;
+    color: #4770a0;
+  }
 }
 
 .main-article__header {
@@ -29,11 +40,95 @@
   margin: 5px 28px 5px 0;
 }
 
+.main-article__meta {
+  margin: 0 25px 0 29px;
+}
+
+.main-article__meta-col {
+  justify-self: start;
+}
+
 .main-article__meta-col:first-child {
   justify-self: end;
   border-right: 1px solid rgba(#ffffff, 0.2);
 }
 
-.main-article__meta {
-  margin: 0 25px 0 29px;
+.main-article__quote {
+  display: flex;
+  background-color: #f1f2f5;
+  padding: 38px 93px 35px 93px;
+  margin: 0 100px 50px;
+  background-image: url("../../img/icons/icon-big-quote.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 117px 103px;
+  border-radius: 5px;
+
+  &::before,
+  &::after {
+    width: 0;
+    opacity: 0.5;
+    border: 2px solid #000000;
+  }
+
+  &::before {
+    content: "";
+    margin-right: auto;
+  }
+
+  &::after {
+    content: "";
+    margin-left: auto;
+  }
+}
+
+.main-article__quote-content {
+  min-height: 100px;
+  width: 100%;
+  text-align: center;
+
+  p {
+    padding-top: 18px;
+    margin: 0;
+    font-style: italic;
+    font-size: 20px;
+    line-height: 30px;
+  }
+
+  cite {
+    margin-bottom: 10px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+  }
+}
+
+.main-article__lead {
+  margin: 0 0 50px 0;
+  font-size: 18px;
+  line-height: 27px;
+
+  b {
+    font-weight: 600;
+  }
+
+  a {
+    text-decoration-line: underline;
+    color: #4770a0;
+
+    &:hover,
+    &:focus {
+      color: #f24a4a;
+    }
+
+    &:active {
+      color: #f24a4a;
+      opacity: 0.5;
+    }
+  }
+}
+
+.main-article__image {
+  margin-bottom: 23px;
 }

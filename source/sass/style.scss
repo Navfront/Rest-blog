@@ -9,6 +9,9 @@
 @import "./blocks/breadcrumbs.scss";
 @import "./blocks/main-article.scss";
 @import "./blocks/meta.scss";
+@import "./blocks/advice-list.scss";
+@import "./blocks/advice.scss";
+@import "./blocks/accent-paragraph.scss";
 
 .visually-hidden {
   position: absolute;
@@ -32,4 +35,13 @@ img {
   max-width: 1170px;
   margin: 0 auto;
   padding: 0 15px;
+}
+
+.content-wrapper {
+  width: 780px;
+  margin: 0 auto;
+}
+
+.text-uppercase {
+  text-transform: uppercase;
 }

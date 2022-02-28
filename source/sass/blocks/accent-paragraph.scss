@@ -1,0 +1,15 @@
+.accent-paragraph {
+  position: relative;
+  padding-left: 45px;
+
+  &::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 0;
+    border: 8px solid #f24a4a;
+    border-top: 8px solid transparent;
+  }
+}
