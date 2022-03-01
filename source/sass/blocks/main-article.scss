@@ -23,7 +23,7 @@
 }
 
 .main-article__header {
-  padding-top: 20px;
+  padding-top: 17px;
   margin-bottom: 50px;
   background-image: linear-gradient(to top, #ffffff 65px, #4870a0 65px, #4870a0 100%);
 }
@@ -37,11 +37,11 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   align-items: center;
-  margin: 5px 28px 5px 0;
+  margin: 5px 28px 3px 0;
 }
 
 .main-article__meta {
-  margin: 0 25px 0 29px;
+  margin: 0 25px 0 28px;
 }
 
 .main-article__meta-col {
@@ -57,7 +57,7 @@
   display: flex;
   background-color: #f1f2f5;
   padding: 38px 93px 35px 93px;
-  margin: 0 100px 50px;
+  margin: 0 100px 53px;
   background-image: url("../../img/icons/icon-big-quote.svg");
   background-repeat: no-repeat;
   background-position: center;

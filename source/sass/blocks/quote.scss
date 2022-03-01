@@ -1,12 +1,12 @@
 .quote {
   display: flex;
   flex-direction: column;
-  padding: 117px 32px 50px 50px;
+  padding: 121px 32px 50px 50px;
   width: 312px;
   background-image: url("../../img/icons/icon-small-quote.svg");
   background-repeat: no-repeat;
   background-size: 41px 36px;
-  background-position: top 50px left 50px;
+  background-position: top 55px left 50px;
   box-shadow: 0 0 25px rgba(0, 0, 0, 0.1);
 
   p {
@@ -26,6 +26,10 @@
     line-height: 24px;
     color: black;
     padding-top: 10px;
+  }
+
+  b {
+    letter-spacing: 0.024em;
   }
 
   a {
