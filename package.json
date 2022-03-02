@@ -10,6 +10,7 @@
     "del": "6.0.0",
     "gulp": "4.0.2",
     "gulp-changed": "^4.0.3",
+    "gulp-file-include": "^2.3.0",
     "gulp-htmlmin": "5.0.1",
     "gulp-imagemin": "7.1.0",
     "gulp-img-retina": "^0.0.4",

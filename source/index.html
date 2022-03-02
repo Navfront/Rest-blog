@@ -1,59 +1,8 @@
 <!DOCTYPE html>
 <html class="page" lang="ru">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;0,700;1,400;1,700&family=Raleway:wght@700&display=swap"
-      rel="stylesheet"
-    />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1.0, viewport-fit=cover"
-    />
-    <link rel="stylesheet" href="./css/style.min.css" />
-    <title>Rest-Blog</title>
-  </head>
+  @@include('head.html', {'title': 'Rest-Blog'})
   <body class="page__body">
-    <header class="page__header main-header">
-      <nav class="main-nav">
-        <div class="container">
-          <div class="main-nav__wrapper">
-            <a href="#" class="main-nav__logo logo">
-              <svg width="53" height="22" aria-label="Company logo">
-                <use xlink:href="img/sprite.svg#logo"></use>
-              </svg>
-            </a>
-            <ul class="main-nav__site-navigation site-navigation">
-              <lo class="site-navigation__item"
-                ><a href="#" class="site-navigation__link">О компании</a></lo
-              >
-              <lo class="site-navigation__item"
-                ><a href="#" class="site-navigation__link">Проекты</a></lo
-              >
-              <lo class="site-navigation__item"
-                ><a class="site-navigation__link">Блог</a></lo
-              >
-              <lo class="site-navigation__item"
-                ><a href="#" class="site-navigation__link">Услуги</a></lo
-              >
-              <lo class="site-navigation__item"
-                ><a href="#" class="site-navigation__link">Контакты</a></lo
-              >
-            </ul>
-
-            <a class="telephone" href="tel:+7932608585">
-              <svg class="telephone__icon" width="16" height="16">
-                <use xlink:href="img/sprite.svg#icon-tele"></use>
-              </svg>
-              +7(4932) 60-85-85</a
-            >
-          </div>
-        </div>
-      </nav>
-    </header>
+    @@include('header.html')
     <main class="page__main main">
       <div class="container">
         <ul class="main__breadcrumbs breadcrumbs">
@@ -444,29 +393,6 @@
         </div>
       </section>
     </main>
-    <footer class="page__footer main-footer">
-      <div class="container">
-        <ul class="main-footer__nav-list">
-          <li class="main-footer__nav-item">
-            <a class="main-footer__link" href="#">О компании</a>
-          </li>
-          <li class="main-footer__nav-item">
-            <a class="main-footer__link" href="#">Наши проекты</a>
-          </li>
-          <li class="main-footer__nav-item">
-            <a class="main-footer__link" href="#">Индивидуальные проекты</a>
-          </li>
-          <li class="main-footer__nav-item">
-            <a class="main-footer__link" href="#">Статьи</a>
-          </li>
-          <li class="main-footer__nav-item">
-            <a class="main-footer__link" href="#">Услуги</a>
-          </li>
-          <li class="main-footer__nav-item">
-            <a class="main-footer__link" href="#">Контакты</a>
-          </li>
-        </ul>
-      </div>
-    </footer>
+    @@include('footer.html')
   </body>
 </html>

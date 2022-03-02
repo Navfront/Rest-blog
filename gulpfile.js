@@ -16,7 +16,8 @@ const csswebp = require("gulp-webp-css");
 const imagemin = require("gulp-imagemin");
 const svgstore = require("gulp-svgstore");
 const fileChanged = require("gulp-changed");
-var imgRetina = require("gulp-img-retina");
+const imgRetina = require("gulp-img-retina");
+const fileInclude = require("gulp-file-include");
 
 // Styles
 
@@ -42,7 +43,12 @@ exports.styles = styles;
 const html = () => {
   return gulp
     .src("source/**/*.html")
-
+    .pipe(
+      fileInclude({
+        prefix: "@@",
+        basepath: "@file",
+      })
+    )
     .pipe(htmlmin({ collapseWhitespace: false }))
     .pipe(htmlwebp())
     .pipe(imgRetina())
