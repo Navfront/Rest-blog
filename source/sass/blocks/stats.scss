@@ -1,0 +1,16 @@
+.stats {
+  margin: 0 auto;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+.stats__item {
+  margin-right: 30px;
+  display: flex;
+  align-items: center;
+
+  svg {
+    margin-right: 10px;
+  }
+}

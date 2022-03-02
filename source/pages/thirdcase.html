@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html class="page" lang="ru">
+  @@include('../head.html', {'title': 'Georgia-Blog', 'css':
+  '../css/style.min.css', 'path':'../'})
+  <body class="page__body">
+    @@include('../header.html', {'path':'../'})
+    <main class="page__main main">
+      <div class="container">
+        <ul class="main__breadcrumbs breadcrumbs">
+          <li class="breadcrumbs__item">
+            <a href="../index.html" class="breadcrumbs__link">Главная</a>
+          </li>
+          <li class="breadcrumbs__item">
+            <a href="../index.html" class="breadcrumbs__link">Блог</a>
+          </li>
+          <li class="breadcrumbs__item">
+            <a href="#" class="breadcrumbs__link"
+              >10 золотых правил для поездки в Грузию</a
+            >
+          </li>
+        </ul>
+        <article class="arti">
+          <header class="arti__header arti-header">
+            <div class="arti-header__wrapper">
+              <h1>10 золотых правил для поездки в Грузию</h1>
+            </div>
+            <p class="arti-header__stats stats">
+              <time class="stats__item" datetime="2019-12-26">
+                <svg width="25" height="25">
+                  <use xlink:href="../img/sprite.svg#calendar"></use>
+                </svg>
+                26 декабря 2019</time
+              >
+              <span class="stats__item">
+                <svg width="25" height="25">
+                  <use xlink:href="../img/sprite.svg#clocks"></use>
+                </svg>
+                15 мин</span
+              >
+              <span class="stats__item">
+                <svg width="24" height="16">
+                  <use xlink:href="../img/sprite.svg#eye"></use>
+                </svg>
+                16 129</span
+              >
+            </p>
+          </header>
+        </article>
+      </div>
+    </main>
+    @@include('../footer.html')
+  </body>
+</html>

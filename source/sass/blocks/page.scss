@@ -1,4 +1,11 @@
+.page {
+  height: 100%;
+}
+
 .page__body {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
   padding: 0;
   margin: 0;
   font-family: "Open Sans", "Arial", sans-serif;
@@ -7,4 +14,41 @@
   font-weight: 400;
   color: black;
   min-width: 1200px;
+}
+
+.page__footer {
+  margin-top: auto;
+}
+
+.page__blog {
+  h1 {
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 150%;
+    color: rgb(8, 8, 19);
+  }
+
+  span {
+    color: rgb(4, 109, 128);
+  }
+
+  p:first-of-type {
+    font-size: 23px;
+    line-height: 1.5;
+  }
+
+  a {
+    text-decoration-line: underline;
+    color: #4770a0;
+
+    &:hover,
+    &:focus {
+      color: #f24a4a;
+    }
+
+    &:active {
+      color: #f24a4a;
+      opacity: 0.5;
+    }
+  }
 }

@@ -1,5 +1,6 @@
 @import "./normalize.scss";
 @import "./blocks/page.scss";
+@import "./blocks/blog-nav.scss";
 @import "./blocks/site-navigation.scss";
 @import "./blocks/logo.scss";
 @import "./blocks/telephone.scss";
@@ -20,6 +21,9 @@
 @import "./blocks/bullet-list.scss";
 @import "./blocks/extra.scss";
 @import "./blocks/main-footer.scss";
+@import "./blocks/arti.scss";
+@import "./blocks/stats.scss";
+@import "./blocks/arti-header.scss";
 
 .visually-hidden {
   position: absolute;

@@ -1,0 +1,30 @@
+.arti-header__wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 316px;
+  background-color: #baccd3;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-image: url("../img/photos/georgia-header-bg.jpg");
+  margin-bottom: 30px;
+
+  h1 {
+    box-sizing: border-box;
+    font-family: "Cormorant", "Arial", sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 150%;
+    background-color: white;
+    padding: 20px 40px;
+    width: 656px;
+  }
+}
+
+.arti-header__stats {
+  margin-bottom: 30px;
+}
