@@ -3,12 +3,15 @@
   text-align: center;
   display: flex;
   justify-content: center;
+  margin-bottom: 30px;
 }
 
 .stats__item {
   margin-right: 30px;
   display: flex;
   align-items: center;
+  font-size: 16px;
+  line-height: 170%;
 
   svg {
     margin-right: 10px;

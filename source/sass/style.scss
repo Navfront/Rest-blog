@@ -21,9 +21,13 @@
 @import "./blocks/bullet-list.scss";
 @import "./blocks/extra.scss";
 @import "./blocks/main-footer.scss";
+@import "./blocks/dotted-decor.scss";
 @import "./blocks/arti.scss";
 @import "./blocks/stats.scss";
 @import "./blocks/arti-header.scss";
+@import "./blocks/arti-rules.scss";
+@import "./blocks/arti-rule.scss";
+@import "./blocks/socials.scss";
 
 .visually-hidden {
   position: absolute;
@@ -51,6 +55,11 @@ img {
 
 .content-wrapper {
   width: 780px;
+  margin: 0 auto;
+}
+
+.arti-wrapper {
+  width: 700px;
   margin: 0 auto;
 }
 

@@ -1,0 +1,32 @@
+.dotted-decor {
+  position: relative;
+  padding: 10px 0;
+
+  &::before {
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    width: 6px;
+    height: 6px;
+    background-color: #d7d9df;
+    border-radius: 50%;
+    box-shadow: 21px 0 0 0 #d7d9df, -21px 0 0 0 #d7d9df;
+  }
+
+  &::after {
+    position: absolute;
+    content: "";
+    bottom: -2px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    width: 6px;
+    height: 6px;
+    background-color: #d7d9df;
+    border-radius: 50%;
+    box-shadow: 21px 0 0 0 #d7d9df, -21px 0 0 0 #d7d9df;
+  }
+}

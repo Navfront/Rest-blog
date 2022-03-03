@@ -1,0 +1,18 @@
+.arti-rules {
+  list-style: none;
+  counter-reset: arti-rules;
+  padding: 0;
+}
+
+.arti-rules__item {
+  position: relative;
+  margin-top: 50px;
+  counter-increment: arti-rules;
+}
+
+.arti-rules__aside {
+  position: absolute;
+  left: -228px;
+  top: -8px;
+  width: 153px;
+}

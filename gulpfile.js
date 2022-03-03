@@ -184,7 +184,7 @@ const watcher = () => {
   gulp.watch("source/js/script.js", gulp.series(scripts));
   gulp.watch(
     ["source/img/**/*.{png,jpg,svg}", "!source/img/sprite-src/*"],
-    gulp.series(optimizeImages)
+    gulp.series(optimizeImages, createWebp)
   );
   gulp.watch("source/**/*.html", gulp.series(html, reload));
 };
