@@ -1,0 +1,101 @@
+.excursions {
+  padding-top: 16px;
+  margin-bottom: 107px;
+
+  h2 {
+    font-family: "Cormorant", "Arial", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 150%;
+    text-align: center;
+    color: #000000;
+  }
+}
+
+.excursions__list {
+  list-style: none;
+  display: flex;
+  padding: 0;
+}
+
+.excursions__item {
+  img {
+    display: block;
+  }
+
+  p {
+    margin-top: 10px;
+    margin-bottom: 3px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 32px;
+    color: inherit;
+  }
+
+  &:not(:last-child) {
+    margin-right: 19.97px;
+  }
+}
+
+.excursions__link {
+  color: black;
+  text-decoration: none;
+}
+
+.excursions__tools {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 32px;
+}
+
+.excursions__button {
+  cursor: pointer;
+  padding: 0;
+  margin: 0 20px;
+  border: none;
+  background-color: transparent;
+
+  &:hover,
+  &:focus {
+    color: #f24a4a;
+    background-color: transparent;
+  }
+
+  &:active {
+    color: #f24a4a;
+    opacity: 0.5;
+  }
+
+  &:disabled {
+    cursor: initial;
+    color: black;
+    opacity: 0.2;
+  }
+}
+
+.excursions__more-link {
+  position: absolute;
+  right: 0;
+  top: 0;
+  color: black;
+  text-decoration: none;
+
+  svg {
+    margin-left: 15px;
+  }
+
+  &:hover,
+  &:focus {
+    color: #f24a4a;
+  }
+
+  &:active {
+    color: #f24a4a;
+    opacity: 0.5;
+  }
+}
