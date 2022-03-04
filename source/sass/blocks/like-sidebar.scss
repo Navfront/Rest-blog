@@ -1,0 +1,49 @@
+.like-sidebar {
+  text-align: center;
+  font-family: "Raleway", "Arial", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 150%;
+}
+
+.like-sidebar__title {
+  margin-top: 6px;
+}
+
+.like-sidebar__row {
+  height: 42px;
+}
+
+.like-sidebar__like {
+  cursor: pointer;
+  align-self: flex-start;
+  padding: 0 0 6px 0;
+  margin: 0 12px;
+  border: none;
+  background-color: transparent;
+
+  &:hover,
+  &:focus {
+    color: #50f24a;
+  }
+
+  &:active {
+    color: #50f24a;
+    opacity: 0.5;
+  }
+}
+
+.like-sidebar__like--dis {
+  align-self: flex-end;
+  transform: scale(-1);
+
+  &:hover,
+  &:focus {
+    color: #f24a4a;
+  }
+
+  &:active {
+    color: #f24a4a;
+  }
+}

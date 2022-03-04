@@ -18,7 +18,7 @@
 
   p {
     margin: 0;
-    margin-bottom: 30px;
+    margin-bottom: 31px;
     font-family: "Raleway", "Arial", sans-serif;
     font-style: normal;
     font-weight: 500;
@@ -43,4 +43,11 @@
   grid-template-columns: 343px 1fr;
   align-items: flex-start;
   gap: 30px;
+}
+
+.arti-rule__rest-slider {
+  margin-top: -8px;
+  position: relative;
+  margin-right: 8px;
+  right: -8px;
 }

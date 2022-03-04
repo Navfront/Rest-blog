@@ -6,7 +6,7 @@
 
 .arti-rules__item {
   position: relative;
-  margin-top: 50px;
+  margin-top: 49px;
   counter-increment: arti-rules;
 }
 
@@ -15,4 +15,11 @@
   left: -228px;
   top: -8px;
   width: 153px;
+}
+
+.arti-rules__like-sidebar {
+  position: absolute;
+  left: -233px;
+  top: 23px;
+  width: 165px;
 }
