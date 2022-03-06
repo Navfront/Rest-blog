@@ -1,0 +1,41 @@
+.read-more {
+  &::after {
+    display: none;
+  }
+
+  h2 {
+    text-align: center;
+    font-family: "Cormorant", "Arial", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 35px;
+    line-height: 150%;
+    color: #000000;
+  }
+}
+
+.read-more__list {
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(235px, 1fr));
+  gap: 40px 30px;
+}
+
+.read-more__link {
+  font-family: "Raleway", "Arial", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 150%;
+  color: #000000;
+  text-decoration: none;
+
+  &:hover,
+  &:focus {
+    opacity: 0.8;
+  }
+
+  &:active {
+    opacity: 0.5;
+  }
+}

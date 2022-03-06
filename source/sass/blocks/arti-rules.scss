@@ -2,12 +2,17 @@
   list-style: none;
   counter-reset: arti-rules;
   padding: 0;
+  margin-bottom: 100px;
 }
 
 .arti-rules__item {
   position: relative;
-  margin-top: 49px;
   counter-increment: arti-rules;
+  margin-top: 47px;
+}
+
+.arti-rules__item + .arti-rules__item {
+  margin-top: 50px;
 }
 
 .arti-rules__aside {

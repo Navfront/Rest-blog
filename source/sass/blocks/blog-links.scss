@@ -1,0 +1,39 @@
+.blog-links {
+  h2 {
+    font-family: "Cormorant", "Arial", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 150%;
+    /* identical to box height, or 45px */
+
+    color: #000000;
+  }
+
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  a {
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 150%;
+    color: #0094ff;
+
+    &:hover,
+    &:focus {
+      color: #f24a4a;
+    }
+
+    &:active {
+      color: #f24a4a;
+      opacity: 0.5;
+    }
+  }
+
+  li {
+    margin-bottom: 11px;
+  }
+}
