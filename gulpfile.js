@@ -42,7 +42,7 @@ exports.styles = styles;
 
 const html = () => {
   return gulp
-    .src("source/**/*.html")
+    .src(["source/**/*.html", "!source/**/_*.html"])
     .pipe(
       fileInclude({
         prefix: "@@",
