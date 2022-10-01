@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html class="page" lang="ru">
-  @@include('_head.html', {'title': 'Rest-Blog', 'css': './css/style.min.css',
-  'path':'../'})
+  @@include('_head.html', {'title': 'Rest-Blog', 'css': './css/style.min.css', 'path':'.'})
   <body class="page__body">
     @@include('_header.html', {'path': ''})
     <main class="page__main main">
@@ -21,14 +20,12 @@
           <p>Ссылки на статьи:</p>
           <ul class="blog-nav">
             <li class="blog-nav__item">
-              <a href="/pages/secondcase.html" class="blog-nav__link"
+              <a href="./pages/secondcase.html" class="blog-nav__link"
                 >Отдых: как не превратиться в «загнанную лошадь»</a
               >
             </li>
             <li class="blog-nav__item">
-              <a href="/pages/thirdcase.html" class="blog-nav__link"
-                >10 золотых правил для поездки в Грузию</a
-              >
+              <a href="pages/thirdcase.html" class="blog-nav__link">10 золотых правил для поездки в Грузию</a>
             </li>
           </ul>
         </div>
